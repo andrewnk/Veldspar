@@ -1,5 +1,5 @@
 # To build:
-# docker built -t veldspar .
+# docker build -t veldspar .
 
 # To run the miner (change the address and threads accordingly):
 # docker run -it veldspar miner --address XXXXXXXX --threads 2
