@@ -6,7 +6,7 @@
 
 FROM ubuntu:16.04
 LABEL maintainer="andrewnk"
-LABEL Description="Docker container for Veldpsar on Ubuntu 16.04 adapted from Haris Amin's original Dockerfile"
+LABEL Description="Docker container for Veldpsar on Ubuntu 16.04 adapted from Haris Amin's original Swift/Ubuntu Dockerfile"
 
 ARG SWIFT_PLATFORM=ubuntu16.04
 ARG SWIFT_BRANCH=swift-4.1.3-release
