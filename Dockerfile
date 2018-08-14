@@ -62,7 +62,7 @@ RUN SWIFT_URL=https://swift.org/builds/$SWIFT_BRANCH/$(echo "$SWIFT_PLATFORM" | 
 
 RUN git clone https://github.com/VeldsparCrypto/Veldspar.git
 
-WORKDIR veldspar
+WORKDIR Veldspar
 
 RUN swift build -c release
 
