@@ -60,7 +60,7 @@ RUN SWIFT_URL=https://swift.org/builds/$SWIFT_BRANCH/$(echo "$SWIFT_PLATFORM" | 
     rm -r "$GNUPGHOME" swift.tar.gz.sig swift.tar.gz && \
     chmod -R o+r /usr/lib/swift 
 
-RUN git clone https://github.com/editfmah/veldspar.git
+RUN git clone https://github.com/VeldsparCrypto/Veldspar.git
 
 WORKDIR veldspar
 
